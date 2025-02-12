@@ -57,7 +57,7 @@ for _ in range(N):
         ax.set_xticks(np.arange(0, 1.1, 0.1))
         ax.set_yticks(np.arange(0, 1.1, 0.1))
 
-        plt.text(0.15, 1.05, f'n = r + b = {iteration}', ha='center')
+        plt.text(0.2, 1.05, f'n = r + b = {iteration}', ha='center')
 
         plt.text(0.6, 1.05, f'b = {len(x_inside)}', ha='center', color='blue')
         plt.text(0.8, 1.05, f'r = {len(x_outside)}', ha='center', color='red')
