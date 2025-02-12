@@ -29,7 +29,7 @@ for _ in range(N):
         x_outside.append(x)
         y_outside.append(y)
 
-    estimate = (inside_circle / N) * 4  
+    estimate = (inside_circle / iteration) * 4  
 
     
     if iteration % 100 == 0:
