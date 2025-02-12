@@ -62,7 +62,7 @@ for _ in range(N):
         plt.text(0.6, 1.05, f'b = {len(x_inside)}', ha='center', color='blue')
         plt.text(0.8, 1.05, f'r = {len(x_outside)}', ha='center', color='red')
 
-        plt.text(0.1, -0.15, r'$\frac{\pi}{4} \approx \frac{r}{n}$', ha='center', transform=ax.transAxes, fontsize=16)
+        plt.text(0.1, -0.15, r'$\frac{\pi}{4} \approx \frac{b}{n}$', ha='center', transform=ax.transAxes, fontsize=16)
         plt.text(0.5, -0.15, r'$\pi = 4 \cdot \frac{{{}}}{{{}}} = {:.4f}$'.format(len(x_outside), iteration, estimate), ha='center', transform=ax.transAxes, fontsize=16)
 
         output_dir = 'c:/Desktop/CS projects/monte_carlo/pi_solve_img'
